@@ -10,7 +10,7 @@ public class Program
         // Ex 3
         Console.WriteLine(currentDate());
 
-        /* Numerations */
+        /* Numerations Ex 1 and 2 */
         daysOfWeek();
 
         /* Conversions */
@@ -22,6 +22,11 @@ public class Program
         colorSwitch("aul");
         // Ex 4 and 5
         gratterThanTen(65);
+
+        /* Ex6 la sentencia for se usa para controlar cantidad de iteraciones donde se necersite un contador y
+            foreach se usa para recorrer colecciones sin necesidad de un contador
+        */
+
         // Ex 7
         fiftyBucle();
 
@@ -57,6 +62,7 @@ public class Program
     public static void boolConvertions(){
         string[] values = { "True", "False","true", "false","0", "1"};
 
+        /* can convert 'true' and 'false' string into boolean, but not with '1' an '0' values */
         Console.WriteLine("TryParse");
         foreach (var value in values) {
             bool flag;
@@ -66,6 +72,8 @@ public class Program
                 Console.WriteLine("Unable to parse '{0}'.",
                                 value == null ? "<null>" : value);
         }
+
+        /* can convert 'true' and 'false' string into boolean, but not with '1' an '0' values */
         Console.WriteLine("Parse");
         foreach (var value in values) {
             Console.WriteLine(bool.Parse(value));
@@ -76,9 +84,11 @@ public class Program
         decimal a = 10;
         int b = 443444;
         short c = (short)b;
-
+        /* parse to integer value */
         Console.WriteLine((int)344.4);
+        /* its decimal value */
         Console.WriteLine(a);
+        /* parse current value into negative number */
         Console.WriteLine(c);
     }
 
