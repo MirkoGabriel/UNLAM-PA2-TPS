@@ -20,6 +20,10 @@ public class Program
         dataParsing();
         // Ex 3
         colorSwitch("aul");
+        // Ex 4 and 5
+        gratterThanTen(65);
+        // Ex 7
+        fiftyBucle();
 
     }
 
@@ -93,6 +97,23 @@ public class Program
             default:
                 Console.WriteLine("color desconocido");
                 break;
+        }
+    }
+
+    public static void gratterThanTen(int a){
+        if(a > 10){
+            Console.WriteLine("Value is {0}",a);
+        }else{
+            Console.WriteLine("Error invalid number");
+        }
+    }
+
+    public static void fiftyBucle(){
+        int a = 0;
+        while (a<=50)
+        {
+            Console.WriteLine(a);
+            a+=5;
         }
     }
 }
