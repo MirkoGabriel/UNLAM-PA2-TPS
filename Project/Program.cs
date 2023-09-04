@@ -19,9 +19,9 @@ public class Program
         // Ex 2
         dataParsing();
         // Ex 3
-        colorSwitch("aul");
+        Console.WriteLine(colorSwitch("aul"));
         // Ex 4 and 5
-        gratterThanTen(65);
+        Console.WriteLine(gratterThanTen(65));
 
         /* Ex6 la sentencia for se usa para controlar cantidad de iteraciones donde se necersite un contador y
             foreach se usa para recorrer colecciones sin necesidad de un contador
@@ -92,29 +92,30 @@ public class Program
         Console.WriteLine(c);
     }
 
-    public static void colorSwitch(string color){
+    public static string colorSwitch(string color){
         switch (color)
         {
             case "blanco":
-                Console.WriteLine(color);
+                return "blanco";
                 break;
             case "azul":
-                Console.WriteLine(color);
+                return "azul";
                 break;
             case "negro":
-                Console.WriteLine(color);
+                return "negro";
                 break;
             default:
-                Console.WriteLine("color desconocido");
+                return "unknow color";
                 break;
         }
     }
 
-    public static void gratterThanTen(int a){
+    public static int gratterThanTen(int a){
         if(a > 10){
-            Console.WriteLine("Value is {0}",a);
+            return a;
         }else{
             Console.WriteLine("Error invalid number");
+            return -1;
         }
     }
 

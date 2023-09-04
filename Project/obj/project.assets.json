@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mgabriel/Desktop/PA2/TP1/TP1.csproj",
-      "projectName": "TP1",
-      "projectPath": "/home/mgabriel/Desktop/PA2/TP1/TP1.csproj",
+      "projectUniqueName": "/home/mgabriel/Desktop/PA2/UNLAM-PA2-TPS/Project/Project.csproj",
+      "projectName": "Project",
+      "projectPath": "/home/mgabriel/Desktop/PA2/UNLAM-PA2-TPS/Project/Project.csproj",
       "packagesPath": "/home/mgabriel/.nuget/packages/",
-      "outputPath": "/home/mgabriel/Desktop/PA2/TP1/obj/",
+      "outputPath": "/home/mgabriel/Desktop/PA2/UNLAM-PA2-TPS/Project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mgabriel/.nuget/NuGet/NuGet.Config"
